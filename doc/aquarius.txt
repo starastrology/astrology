@@ -1,0 +1,25 @@
+Julia Roberts,  Alex Jones, Tucker Barnhart, Katy Perry,  Josh Homme, Ava Gardner, Mel Blanc, Nolan Ryan, Elon Musk, 
+    Chuck Todd, Huston Street, Jodie Foster, Richard Roeper, Steve McQueen,  Harper Lee, Drew Barrymore, Zach Galifianakis, 
+    Florian Schneider,  RJ Mitte, Madison Bumgarner, Megan Fox, Dave Concepcion, Rob Schneider,  Brad Garrett, Shepard Smith,
+    Sydney Pollack, Ingrid Bergman,   
+    Ben Bernanke, John C. Reilly, Hillel Slovak, Linus Torvalds,
+    Project Pat, Curren$y, Tiger Woods, Russell Westbrook, Roscoe Dash, Rickey Henderson, Bill Russell, Pokey Reese,
+    Dusty Baker, Patrick Mahomes, Fred McGriff, Ike Turner, Thierry Henry, Will Smith, Common, DJ Screw,
+    Quentin Tarantino, Sarah Palin,
+    Bruce Lee,
+    Giancarlo Stanton, Che Guevara,
+    Roger Clemens, David Cronenberg,  Iggy Pop, Dane Cook, Gene Wilder, Rivers Cuomo, Marcus Eoin,
+    Barbara Bush, John Cranley, John Elway, Howard Stern, Todd Frazier, Andy Roddick, Justin Theroux, Roger Daltrey,
+    John F. Kennedy, John Peel, Elvis Costello, Norm Macdonald, JK Rowling, Jack White,
+    Wayne Rooney, Marlon Brando, Mike Golic, Tim Lincecum, Cris Collinsworth, Mike Piazza, Daniel Dennett,
+    Keith Olbermann, Gore Vidal, Gilbert Gottfried,  Rainn Wilson, Eliot Spitzer, Jeff Beck, Hugh Laurie, Jeffrey Dahmer,  
+    Conan O'Brien, Frank Sinatra, Jared Kushner,
+    Juan Atkins, Magic Johnson, Talib Kweli, Drake, Aaliyah, Mos Def, Kevin Durant,
+    Liam Neeson,
+    Jose Canseco, Benicio del Toro, Black Francis, Ray Romano
+
+    
+        
+          
+       
+    
