@@ -116,7 +116,10 @@ def Calculate(self):
     
     date = Datetime(str(year) + '/' + str(month) + '/' + str(day), '12:00', '+00:00')
     pos = GeoPos('38n32', '8w54')
-    chart = Chart(date, pos, IDs=const.LIST_OBJECTS)
+    lis = const.LIST_OBJECTS
+    if "Chiron" in lis:
+        lis.remove('Chiron')
+    chart = Chart(date, pos, IDs=lis)
     numbers = props.sign().number
     sun = chart.get(const.SUN).sign
     sun = (numbers.get(sun) + 3) % 12
@@ -163,6 +166,11 @@ def Calculate(self):
     if north_node == 0:
         north_node = 12
 
+    if int(day) < 10:
+        day = day[1]
+    if int(month) < 10:
+        month = month[1]
+
     import requests
     response = requests.get('https://widgets.astro-seek.com/calculate-lilith/',\
                          params={'muz_narozeni_den': day,\
@@ -195,8 +203,9 @@ def Calculate(self):
 
     sign = list(numbers.keys())[list(numbers.values()).index(astro)]
 
-    html = "<html><body><h1>The sign for the birthday, </h1>"
-    html += "<blockquote>" + self.POST.get('month') + "/" + self.POST.get('day') + "/" + self.POST.get('year') + "</blockquote>"
+    html = "<html><head><style>body{background: lightblue url('/static/starastro.png') no-repeat fixed center; \
+    background-size: 500px;} div{text-align: center;}</style> </head><body>"
+    html += "<div><h1>The sign for the birthday, </h1><blockquote>" + self.POST.get('month') + "/" + self.POST.get('day') + "/" + self.POST.get('year') + "</blockquote>"
     html += "<h2>is</h2>"
-    html += "<blockquote><u>" + sign + "</u></blockquote><a href='" + reverse('calculator') + "'>Back</a></body></html>"
+    html += "<blockquote><u>" + sign + "</u></blockquote><a href='" + reverse('calculator') + "'>Back</a></body></div></html>"
     return HttpResponse(html) 
